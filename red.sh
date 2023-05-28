@@ -1,5 +1,11 @@
 #!/usr/bin/env bash 
 
+rm -rf device/xiaomi/redwood
+rm -rf device/xiaomi/sm8350-common
+rm -rf vendor/xiaomi/redwood
+rm -rf vendor/xiaomi/sm8350-common
+rm -rf hardware/xiaomi
+
 #cloning trees
 git clone https://github.com/lineage-redwood/android_device_xiaomi_redwood device/xiaomi/redwood
 git clone https://github.com/lineage-redwood/android_device_xiaomi_sm8350-common device/xiaomi/sm8350-common
